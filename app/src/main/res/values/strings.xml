@@ -19,7 +19,7 @@
     <string name="hard_level_button">Сложный</string>
     <string name="game_over">Game Over</string>
     <string name="score_answer">Ваш счет: %s</string>
-    <string name="score_percentage">Процент правильных ответов: %s из %s необходимых</string>
+    <string name="score_percentage">Процент правильных ответов: %s</string>
     <string name="required_percentage">Необходимый процент правильных ответов: %s</string>
     <string name="required_score">Необходимый количество правильных ответов: %s</string>
     <string name="progress_answers">Правильных ответов: %s (минимум %s)</string>
