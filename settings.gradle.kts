@@ -1,4 +1,7 @@
 pluginManagement {
+    plugins {
+        id("androidx.navigation.safeargs") version "2.9.3"
+    }
     repositories {
         google {
             content {
