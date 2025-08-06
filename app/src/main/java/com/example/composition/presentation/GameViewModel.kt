@@ -16,10 +16,10 @@ import com.example.composition.domain.usecase.GenerateQuestionUseCase
 import com.example.composition.domain.usecase.GetGameSettingsUseCase
 
 class GameViewModel(
-    private val  application: Application,
+    private val application: Application,
     private val level: Level,
 
-) : ViewModel() {
+    ) : ViewModel() {
 
     private lateinit var gameSettings: GameSettings
 
@@ -68,6 +68,7 @@ class GameViewModel(
     init {
         startGame()
     }
+
     private fun startGame() {
         getGameSettings()
         startTimer()
